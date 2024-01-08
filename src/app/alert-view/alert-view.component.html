@@ -1,0 +1,15 @@
+<div class="card">
+    <div id="left">
+        <h2>Villain: {{ alert.name }}</h2>
+        <img *ngIf="alert.imageUrl" [src]="alert.imageUrl" alt="Alert Image" />
+    </div>
+    <div id="info">
+        <p><b>Location: </b> {{ alert.location }}</p>
+        <p><b>Reported By: </b> {{ alert.reporter }} ({{ alert.phone }})</p>
+        <p><b>Time: </b> {{ alert.time | date: 'M/d/yy, (h:mm a)'}} </p>
+        <p><b>Status: </b> {{ alert.status }} <a id = "change" href="javascript:void(0);" (click)="changeStatus()">CHANGE</a></p>
+        <p><b>Extra Info: </b> {{ alert.extra }} </p>
+    </div>
+</div>
+
+<a id = "back" routerLink="/alerts"><< BACK TO ALERTS</a>
