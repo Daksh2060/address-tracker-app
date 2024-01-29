@@ -4,7 +4,9 @@ This super creepy Angular web app project is an Address Tracker you can use to k
 
 ## Features
 
+- **Interactive Map:** The project includes an interactive leaflet map, which displays markers corresponding to locations saved in the database. Markers contain an overlapping feature, which allows you to view multiple people at the same location.
 
+- **Coordinate Conversion:** Users can add a new location to the database by entering in the coordinates. The location is then converted into a marker on the leaflet map.
 
 ## How does it work?
 
