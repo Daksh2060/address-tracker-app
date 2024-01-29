@@ -10,7 +10,7 @@ This super creepy Angular web app project is an Address Tracker you can use to k
 
 ## How does it work?
 
-
+When launching the application, users will arrive at a home screen displaying the maps on the upper half, and the primary interface on the bottom enabled by routing. The list of friends can be ordered by the columns of the display and can also be removed by admin privileges (in this case, knowing the password which is ""). When adding a new friend, users will be taken to an input form as such:
 
 ## Installation and Use
 
@@ -19,7 +19,7 @@ Follow these steps to set up and run the Address Tracker:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone 
+   git clone https://github.com/Daksh2060/address-tracker-app-angular
    ```
 
 
