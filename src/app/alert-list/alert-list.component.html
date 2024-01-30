@@ -6,11 +6,11 @@
         <span class="sort-icon" [class.asc]="sortOrder === 'asc'" [class.desc]="sortOrder === 'desc'" [class.visible]="sortField === 'location'"></span>
       </th>
       <th (click)="onSort('name')" [class.active]="sortField === 'name'" class="th">
-        Baddies Name
+        Friends Name
         <span class="sort-icon" [class.asc]="sortOrder === 'asc'" [class.desc]="sortOrder === 'desc'" [class.visible]="sortField === 'name'"></span>
       </th>
       <th (click)="onSort('time')" [class.active]="sortField === 'time'" class="th">
-        Time Reported
+        Time ADDED
         <span class="sort-icon" [class.asc]="sortOrder === 'asc'" [class.desc]="sortOrder === 'desc'" [class.visible]="sortField === 'time'"></span>
       </th>
       <th (click)="onSort('status')" [class.active]="sortField === 'status'" class="th">
@@ -37,4 +37,4 @@
   </tbody>
 </table>
 
-<button routerLink="/alert/add" class="btn">CREATE NUISANCE REPORT</button>
+<button routerLink="/alert/add" class="btn">CREATE FRIEND ENTRY</button>

@@ -4,7 +4,7 @@
 
       <legend>ADD ALERT</legend> 
 
-      <input type="text" name="name" placeholder="Villain Name" formControlName="name" />
+      <input type="text" name="name" placeholder="Friend Name" formControlName="name" />
       <div *ngIf="form.get('name')!.hasError('maxLengthExceeded') && form.get('name')!.touched" class="error">
         <span class="error-message">{{ form.get('name')!.getError('message') }}</span>
       </div>
@@ -38,7 +38,7 @@
         </div>
       </div>
 
-      <input type="text" name="reporter" placeholder="Reporter Name" formControlName = "reporter">
+      <input type="text" name="reporter" placeholder="Relation" formControlName = "reporter">
 
       <input type="text" name="phone" placeholder="Phone Number" formControlName = "phone">
 
