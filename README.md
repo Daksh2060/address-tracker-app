@@ -16,13 +16,13 @@ When launching the application, users will arrive at a home screen displaying th
   <img src="images/oldLocation.png" />
 </p>
 
-If the location you want to add int already in the public list, you can add your own location by switching to "Custom Location", which uses REGEX and form componenets to ensure your inputs work:
+If the location you want to add int already in the public list, you can add your own location by switching to "Custom Location", which uses REGEX and form components to ensure your inputs work:
 
 <p align="center">
   <img src="images/newLocation.png" />
 </p>
 
-The overlapping feature will show if multiple firends happen to be located at the same desitination, which will be updated dynamically as firends are added or removed:
+The overlapping feature will show if multiple friends happen to be located at the same destination, which will be updated dynamically as friends are added or removed:
 
 <p align="center">
   <img src="images/map.png" />
@@ -44,7 +44,7 @@ Follow these steps to set up and run the Address Tracker locally:
    npm install
    ```
 
-3. Launch local server to run:
+3. Launch the local server to run:
 
    ```bash
    ng serve -o
