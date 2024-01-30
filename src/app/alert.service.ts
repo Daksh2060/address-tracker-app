@@ -10,7 +10,7 @@ export class AlertService {
 
   alerts:Alert[] =[];
   alertsSubject = new Subject<void>(); 
-  private readonly apiUrl = 'https://272.selfip.net/apps/IAzabmC9H7/collections/data2/documents/';
+  private readonly apiUrl = '';
 
   constructor(private http: HttpClient) {
     this.fetchData();
