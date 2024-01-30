@@ -12,10 +12,15 @@ This super creepy Angular web app project is an Address Tracker you can use to k
 
 When launching the application, users will arrive at a home screen displaying the maps on the upper half, and the primary interface on the bottom enabled by routing. The list of friends can be ordered by the columns of the display and friends can also be removed by admin privileges (in this case, knowing the password which is ""). When adding a new friend, users will be taken to an input form as such:
 
+![Use Old Location](images/oldLocation.png)
+
+If the location you want to add int already in the public list, you can add your own location by switching to "Custom Location", which uses REGEX and form componenets to ensure your inputs work:
+
+![Add New Location](images/newLocation.png)
 
 The overlapping feature will show if multiple firends happen to be located at the same desitination, which will be updated dynamically as firends are added or removed:
 
-
+![Map](images/map.png)
 
 
 
