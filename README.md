@@ -12,17 +12,31 @@ This super creepy Angular web app project is an Address Tracker you can use to k
 
 When launching the application, users will arrive at a home screen displaying the maps on the upper half, and the primary interface on the bottom enabled by routing. The list of friends can be ordered by the columns of the display and can also be removed by admin privileges (in this case, knowing the password which is ""). When adding a new friend, users will be taken to an input form as such:
 
+
+
+
 ## Installation and Use
 
-Follow these steps to set up and run the Address Tracker:
+Follow these steps to set up and run the Address Tracker locally:
 
 1. Clone the repository to your local machine:
 
    ```bash
    git clone https://github.com/Daksh2060/address-tracker-app-angular
    ```
+   
+2. Run node packet manager in the project directory to download modules:
 
+   ```bash
+   npm install
+   ```
 
+3. Launch local server to run:
+
+   ```bash
+   ng serve -o
+   ```
+   
 ## Contact
 
 Feel free to reach out if you have any questions, suggestions, or feedback:
